@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "./style.css"
 
 class CardNote extends Component {
   render() {
     return (
-      <section>
+      <section className="note-card">
         <header>
           <h4>Title</h4>
         </header>
